@@ -32,7 +32,7 @@ function movemenu(item) {
     $(".img-me").animate({left: '-'+moveme+'px', top:'210px'});
     $(".contact").animate({left: '200px', top:'380px'});
     if (winwidth>1300) {
-        $(".dash").animate({left: '1150px', top:'100px'});
+        $(".dash").animate({ top:'100px'});
     }
     if (lastitem!="") {
         $("#content_text"+lastitem).fadeOut(function() {

@@ -94,7 +94,8 @@ body {
 .content {
     position: absolute;
     top: 100px;
-    left: 425px;
+    left: 50%;
+    margin-left: -250px;
     width: 500px;
     height: 450px;
     background-color: rgba(0, 0, 0, 0.7);
@@ -114,7 +115,7 @@ body {
 .contact {
     position: absolute;
     top: 260px;
-    left: -450px;
+    left: -400px;
     width: 400px;
     height: 120px;
     margin-left: -200px;
@@ -134,10 +135,10 @@ a {
 .dash {
     position: absolute;
     top: -800px;
-    left: 450px;
-    width: 350px;
+    left: 100%;
+    width: 400px;
     height: 450px;
-    margin-left: -200px;
+    margin-left: -400px;
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 20px;
     text-align: center;
