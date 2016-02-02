@@ -26,10 +26,11 @@ function loadtext() {
 var lastitem="";
 
 function movemenu(item) {
-    $(".title_menu").animate({left: '200px', top:'100px'});
-    $(".img-me").animate({left: '-950px', top:'210px'});
-    $(".contact").animate({left: '200px', top:'380px'});$(window).width();
     var winwidth = $(window).width();
+    var moveme=Math.round(winwidth-150);
+    $(".title_menu").animate({left: '200px', top:'100px'});
+    $(".img-me").animate({left: '-'+moveme+'px', top:'210px'});
+    $(".contact").animate({left: '200px', top:'380px'});
     if (winwidth>1300) {
         $(".dash").animate({left: '1150px', top:'100px'});
     }
