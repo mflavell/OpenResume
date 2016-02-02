@@ -15,12 +15,10 @@ body {
 .img-me {
     border-radius: 50%;
     position: absolute;
-    top: 110px;
+    top: 70px;
     left: 0;
     right: 0;
     bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
     box-shadow: 10px 10px 5px #000000;
 }
 
@@ -42,13 +40,21 @@ body {
     font-family: Sans-serif;
 }
 
+.mobile {
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    color: yellow;
+    font-size: 10px;
+    font-family: Sans-serif;
+}
+
 .title_menu {
     position: absolute;
     top: 300px;
-    left: 50%;
-    width: 400px;
+    left: 0px;
+    width: 350px;
     height: 100px;
-    margin-left: -200px;
     background-color: rgba(0, 0, 0, 0.9);
     border-radius: 20px;
 }
@@ -92,18 +98,20 @@ body {
 .content {
     position: absolute;
     top: 160px;
-    left: 50%;
-    margin-left: -250px;
-    width: 500px;
-    height: 450px;
+    left: 0px;
+    width: 350px;
+    height: 650px;
     background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 20px;
+    border-radius: 15px;
  }
 
  .content_text {
     color: white;
     font-family: sans-serif;
     font-size: 15px;
+    border-radius: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
  }
  
 .hide {
@@ -112,9 +120,9 @@ body {
 
 .contact {
     position: absolute;
-    top: 620px;
+    top: 830px;
     left: -400px;
-    width: 400px;
+    width: 350px;
     height: 120px;
     margin-left: -200px;
     background-color: rgba(0, 0, 0, 0.7);
@@ -154,7 +162,7 @@ a {
 .openres {
     position: absolute;
     left: 10px;
-    top: 750px;
+    top: 950px;
     color: white;
     font-family: sans-serif;
     font-size: 10px;
