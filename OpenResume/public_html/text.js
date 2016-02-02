@@ -1,5 +1,5 @@
 /* 
- * Edit this resume text file to suit your resume
+ * Edit this resume text file to suit your resume 
  */
 
 /* headline for resume */
