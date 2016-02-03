@@ -3,7 +3,9 @@
  */
 
 $( window ).resize(function() {
-    location.reload();
+    if($(window).width() != width && $(window).height() != height){
+        location.reload();
+    }
 });
 
 function loadtext() {
