@@ -8,156 +8,462 @@ and open the template in the editor.
     Author     : matt
 */
 
-body {
-    background-image: url("images/background.jpg")
-}
+ @media only screen and (min-width:1334px){
 
-.img-me {
-    border-radius: 50%;
-    position: absolute;
-    top: 110px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 10px 10px 5px #000000;
-}
+    body {
+        background-image: url("images/background.jpg")
+    }
 
-.title {
-    position: absolute;
-    top: 5px;
-    left: 50%;
-    margin-left: -173px;
-    color: white;
-    font-size: 50px;
-    font-family: Sans-serif;
-}
+    .img-me {
+        border-radius: 50%;
+        position: absolute;
+        top: 110px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 10px 10px 5px #000000;
+    }
 
-.sub_title {
-    position: absolute;
-    top: 65px;
-    left: 50%;
-    margin-left: -286px;
-    color: white;
-    font-size: 20px;
-    font-family: Sans-serif;
-}
+    .title {
+        position: absolute;
+        top: 5px;
+        left: 50%;
+        margin-left: -173px;
+        color: white;
+        font-size: 50px;
+        font-family: Sans-serif;
+    }
 
-.title_menu {
-    position: absolute;
-    top: 300px;
-    left: 50%;
-    width: 400px;
-    height: 100px;
-    margin-left: -200px;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 20px;
-}
+    .sub_title {
+        position: absolute;
+        top: 65px;
+        left: 50%;
+        margin-left: -286px;
+        color: white;
+        font-size: 20px;
+        font-family: Sans-serif;
+    }
+    .mobile {
+        display: none;
+    }
 
-.menu_1  {
-    position: absolute;
-    top: 10px;
-    left: 45px;
-    color: white;
-    font-family: sans-serif;
-    font-size: 15px;
-}
+    .title_menu {
+        position: absolute;
+        top: 300px;
+        left: 50%;
+        width: 400px;
+        height: 100px;
+        margin-left: -200px;
+        background-color: rgba(0, 0, 0, 0.9);
+        border-radius: 20px;
+    }
 
-.menu_2  {
-    position: absolute;
-    top: 10px;
-    left: 250px;
-    color: white;
-    font-family: sans-serif;
-    font-size: 15px;
-}
+    .menu_1  {
+        position: absolute;
+        top: 10px;
+        left: 45px;
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
 
-.menu_3  {
-    position: absolute;
-    top: 50px;
-    left: 10px;
-    color: white;
-    font-family: sans-serif;
-    font-size: 15px;
-}
+    .menu_2  {
+        position: absolute;
+        top: 10px;
+        left: 250px;
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
 
-.menu_4  {
-    position: absolute;
-    top: 50px;
-    left: 260px;
-    color: white;
-    font-family: sans-serif;
-    font-size: 15px;
-}
+    .menu_3  {
+        position: absolute;
+        top: 50px;
+        left: 10px;
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
 
-.content {
-    position: absolute;
-    top: 100px;
-    left: 50%;
-    margin-left: -250px;
-    width: 500px;
-    height: 450px;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 20px;
- }
+    .menu_4  {
+        position: absolute;
+        top: 50px;
+        left: 260px;
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
 
- .content_text {
-    color: white;
-    font-family: sans-serif;
-    font-size: 15px;
+    .content {
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        margin-left: -250px;
+        width: 500px;
+        height: 450px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 20px;
+     }
+
+     .content_text {
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px;
+        margin-right: 15px;
+        margin-left: 15px;
+     }
+
+    .hide {
+        display: none;
+    }
+
+    .contact {
+        position: absolute;
+        top: 260px;
+        left: -400px;
+        width: 400px;
+        height: 120px;
+        margin-left: -200px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 20px;
+        text-align: center;
+        vertical-align: middle;
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+
+    a {
+        color: white;
+    }
+
+    .dash {
+        position: absolute;
+        top: -800px;
+        left: 100%;
+        width: 400px;
+        height: 450px;
+        margin-left: -400px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 20px;
+        text-align: center;
+        vertical-align: middle;
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px;
+     }
+
+     h1, h2, h3, h4, h5, h6{
+      margin-top:5px;
+      margin-bottom:5px;
+    }
+
+    .openres {
+        position: absolute;
+        left: 10px;
+        top: 550px;
+        color: white;
+        font-family: sans-serif;
+        font-size: 10px;
+    }
  }
  
-.hide {
-    display: none;
-}
+ @media only screen and (min-width: 1000px) and (max-width:1333px){
+         body {
+        background-image: url("images/background.jpg")
+    }
 
-.contact {
-    position: absolute;
-    top: 260px;
-    left: -400px;
-    width: 400px;
-    height: 120px;
-    margin-left: -200px;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 20px;
-    text-align: center;
-    vertical-align: middle;
-    color: white;
-    font-family: sans-serif;
-    font-size: 15px;
-}
+    .img-me {
+        border-radius: 50%;
+        position: absolute;
+        top: 110px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 10px 10px 5px #000000;
+    }
 
-a {
-    color: white;
-}
+    .title {
+        position: absolute;
+        top: 5px;
+        left: 50%;
+        margin-left: -173px;
+        color: white;
+        font-size: 50px;
+        font-family: Sans-serif;
+    }
 
-.dash {
-    position: absolute;
-    top: -800px;
-    left: 100%;
-    width: 400px;
-    height: 450px;
-    margin-left: -400px;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 20px;
-    text-align: center;
-    vertical-align: middle;
-    color: white;
-    font-family: sans-serif;
-    font-size: 15px;
+    .sub_title {
+        position: absolute;
+        top: 65px;
+        left: 50%;
+        margin-left: -286px;
+        color: white;
+        font-size: 20px;
+        font-family: Sans-serif;
+    }
+    .mobile {
+        display: none;
+    }
+
+    .title_menu {
+        position: absolute;
+        top: 300px;
+        left: 50%;
+        width: 400px;
+        height: 100px;
+        margin-left: -200px;
+        background-color: rgba(0, 0, 0, 0.9);
+        border-radius: 20px;
+    }
+
+    .menu_1  {
+        position: absolute;
+        top: 10px;
+        left: 45px;
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+
+    .menu_2  {
+        position: absolute;
+        top: 10px;
+        left: 250px;
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+
+    .menu_3  {
+        position: absolute;
+        top: 50px;
+        left: 10px;
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+
+    .menu_4  {
+        position: absolute;
+        top: 50px;
+        left: 260px;
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+
+    .content {
+        position: absolute;
+        top: 100px;
+        left: 100%;
+        margin-left: -505px;
+        width: 500px;
+        height: 450px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 20px;
+     }
+
+     .content_text {
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px;
+        margin-right: 15px;
+        margin-left: 15px;
+     }
+
+    .hide {
+        display: none;
+    }
+
+    .contact {
+        position: absolute;
+        top: 260px;
+        left: -400px;
+        width: 400px;
+        height: 120px;
+        margin-left: -200px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 20px;
+        text-align: center;
+        vertical-align: middle;
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+
+    a {
+        color: white;
+    }
+
+    .dash {
+        display: none;
+     }
+
+     h1, h2, h3, h4, h5, h6{
+      margin-top:5px;
+      margin-bottom:5px;
+    }
+
+    .openres {
+        position: absolute;
+        left: 10px;
+        top: 550px;
+        color: white;
+        font-family: sans-serif;
+        font-size: 10px;
+    }
  }
  
- h1, h2, h3, h4, h5, h6{
-  margin-top:5px;
-  margin-bottom:5px;
-}
+ @media only screen and (max-width:999px){
+    body {
+        background-image: url("images/background.jpg")
+    }
 
-.openres {
-    position: absolute;
-    left: 10px;
-    top: 550px;
-    color: white;
-    font-family: sans-serif;
-    font-size: 10px;
-}
+    .img-me {
+        border-radius: 50%;
+        position: absolute;
+        top: 0px;
+        left: 0px
+        box-shadow: 10px 10px 5px #000000;
+        width: 50px;
+        height: 50px;
+    }
+
+    .title {
+        position: absolute;
+        top: 5px;
+        left: 70px;
+        color: white;
+        font-size: 20px;
+        font-family: Sans-serif;
+    }
+
+    .sub_title {
+        position: absolute;
+        top: 25px;
+        left: 70px;
+        color: white;
+        font-size: 10px;
+        font-family: Sans-serif;
+    }
+
+    .mobile {
+        position: absolute;
+        top: 35px;
+        left: 70px;
+        color: yellow;
+        font-size: 10px;
+        font-family: Sans-serif;
+    }
+
+    .title_menu {
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        width: 350px;
+        height: 100px;
+        background-color: rgba(0, 0, 0, 0.9);
+        border-radius: 20px;
+    }
+
+    .menu_1  {
+        position: absolute;
+        top: 10px;
+        left: 45px;
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+
+    .menu_2  {
+        position: absolute;
+        top: 10px;
+        left: 250px;
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+
+    .menu_3  {
+        position: absolute;
+        top: 50px;
+        left: 10px;
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+
+    .menu_4  {
+        position: absolute;
+        top: 50px;
+        left: 260px;
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+
+    .content {
+        position: absolute;
+        top: 210px;
+        left: 0px;
+        width: 350px;
+        height: 650px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 15px;
+     }
+
+     .content_text {
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px;
+        border-radius: 15px;
+        margin-right: 15px;
+        margin-left: 15px;
+     }
+
+    .hide {
+        display: none;
+    }
+
+    .contact {
+        position: absolute;
+        top: 880px;
+        left: 0px;
+        width: 350px;
+        height: 120px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 20px;
+        text-align: center;
+        vertical-align: middle;
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+
+    a {
+        color: white;
+    }
+
+    .dash {
+        display: none;
+     }
+
+     h1, h2, h3, h4, h5, h6{
+      margin-top:5px;
+      margin-bottom:5px;
+    }
+
+    .openres {
+        position: absolute;
+        left: 10px;
+        top: 1000px;
+        color: white;
+        font-family: sans-serif;
+        font-size: 10px;
+    }
+ }
